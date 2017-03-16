@@ -1,0 +1,46 @@
+/* CURRENTLY IN: styles/main.css */
+html {
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	background-color: lightgrey;
+	font-family: 'Lato', sans-serif;
+}
+
+.menu {
+	width: 100%;
+	margin: 10px 0px;
+	padding: 5px;
+	display: flex;
+}
+a {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+a:hover {
+	color: black;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+.conteiner {
+	display: flex;
+	justify-content: center;
+}
+.main {
+	background-color: white;
+	width: 70%;
+	min-height: 600px;
+	justify-content: center;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+form {
+	margin: 10px;
+}
