@@ -3,9 +3,14 @@
 <head>
 	<meta charset='utf-8'>
     <title>Blog</title>
-	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<!-- <link rel="stylesheet" type="text/css" href="styles/reset.css"> -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body id="body" >
@@ -21,35 +26,28 @@
 </div>
 <!-- end  of top menu bar -->
  <hr><!-- LINE  -->
- <h1> Share your story </h1>
+ 
 
  <div class="conteiner">
 	<div class="main">
 
+  <div class="list-group js-postlist">
+		<li class="list-group-item">
+			<span class="glyphicon glyphicon-refresh post-spinner"></span>
+		</li>
+		<div class="list-group-item"></div>
+  </div>
 
+		<div class="input-group">
+					<textarea rows="1" class="form-control js-post-text" placeholder="Post title" required></textarea>
+					 <br>
+					 <textarea rows="8" class="form-control js-post-body-text"  placeholder="Blog Text" required></textarea>
+					 <br>
+					<input type="submit" value="Submit" class="js-add-post input-line" align="center">
 
-
-
-	<form aclass="input-form" method="post">
-		Text:<br>
-		<input type="text" name="text" placeholder="Text" size="80" class="js-todo-text"><br>
-		Name:<br>
-		<input type="text" name="name" placeholder="First Name" size="30" maxlength="14">
-		<input type="submit" value="Submit" class="js-add-todo">
-		<input type="reset">
-	</form>
-
-
-
-   	   <!-- <div class="js-postlist"> </div>
-        <div class="textForm">
-			<form action="js-post-text" id="usrform">
-				 Name: <input type="text" name="usrname" class="js-add-username"> 
-				<input type="submit" class="js-add-post">
-				</form>
-			<br>
-			<textarea rows="4" cols="50" name="comment" form="usrform" class="js-post-text">Enter text here...</textarea>
-		</div> -->
+			    
+		</div><!-- js-add-todo -->
+   	  
 	</div> <!-- main -->
  </div> <!-- conteiner -->
 
