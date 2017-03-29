@@ -53,8 +53,10 @@ textarea {
 div.input-group {
 	width: 100%;
 	text-align: center;
-	
-
+	display: none;
+}
+.glyphicon {
+	display: none;
 }
 
 .title-text {
