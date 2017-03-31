@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*/*/*/* CURRENTLY IN: styles/main.css */
 html {
 	font-size: 12px;
@@ -72,4 +73,80 @@ div.input-group {
 .list-group-item {
 	margin-bottom: 0px;
 
+=======
+/*/*/*/* CURRENTLY IN: styles/main.css */
+html {
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	background-color: lightgrey;
+	font-family: 'Lato', sans-serif;
+}
+
+.menu {
+	width: 100%;
+	margin: 10px 0px;
+	padding: 5px;
+	display: flex;
+}
+a {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+a:hover {
+	color: black;
+}
+
+.conteiner {
+	display: flex;
+	justify-content: center;
+}
+.main {
+	background-color: white;
+	width: 80%;
+	min-height: 600px;
+	justify-content: center;
+	padding: 10px;
+}
+
+.input-line {
+	width: 400px;
+
+}
+
+.list-group {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 5px;
+}
+textarea {
+	width: 90%;
+	resize: none;
+	
+}
+div.input-group {
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+.glyphicon {
+	display: none;
+}
+
+.title-text {
+	font-size: 18px;
+	font-weight: bold;
+}
+.post-box {
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.list-group-item {
+	margin-bottom: 0px;
+
+>>>>>>> 30247185165277481d43cfd8162692f795cd9732
 }
